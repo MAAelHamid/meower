@@ -1,0 +1,34 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* App part */
+.main {
+  padding-top: 20px;
+  height: 350px;
+}
+.title, .loading {text-align: center;}
+.mew-form, .loading {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* tweets part */
+.tweets {
+  width: 60%;
+  margin: 0 auto;
+  padding: 12px;
+}
+.tweets .tweet {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.tweets .tweet h5 {text-transform: capitalize;}
+.tweets .tweet p {margin-bottom: 1rem;}
+.tweets .tweet div {
+  width: 100%;
+  text-align: right;
+}
