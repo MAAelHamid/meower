@@ -1,5 +1,6 @@
 <?php 
   include 'connect.php';
+  // Force URL change in address bar
   $URI = $_SERVER['REQUEST_URI'];
   if(!empty($_POST)){
     header("location:$URI");
